@@ -1,0 +1,225 @@
+D:\Microsoft Visual Studio Files\source\repos\hotelmgr\bin\Debug\hotelmgr.exe.config
+D:\Microsoft Visual Studio Files\source\repos\hotelmgr\bin\Debug\hotelmgr.exe
+D:\Microsoft Visual Studio Files\source\repos\hotelmgr\bin\Debug\hotelmgr.pdb
+D:\Microsoft Visual Studio Files\source\repos\hotelmgr\obj\Debug\hotelmgr.csprojAssemblyReference.cache
+D:\Microsoft Visual Studio Files\source\repos\hotelmgr\obj\Debug\hotelmgr.Properties.Resources.resources
+D:\Microsoft Visual Studio Files\source\repos\hotelmgr\obj\Debug\hotelmgr.csproj.GenerateResource.cache
+D:\Microsoft Visual Studio Files\source\repos\hotelmgr\obj\Debug\hotelmgr.exe
+D:\Microsoft Visual Studio Files\source\repos\hotelmgr\obj\Debug\hotelmgr.pdb
+D:\Microsoft Visual Studio Files\source\repos\hotelmgr\obj\Debug\hotelmgr.FrmLogin.resources
+D:\Microsoft Visual Studio Files\source\repos\hotelmgr\obj\Debug\hotelmgr.FrmMain.resources
+C:\Users\m1360\Desktop\hotelmgr\bin\Debug\hotelmgr.exe.config
+C:\Users\m1360\Desktop\hotelmgr\bin\Debug\hotelmgr.exe
+C:\Users\m1360\Desktop\hotelmgr\bin\Debug\hotelmgr.pdb
+C:\Users\m1360\Desktop\hotelmgr\obj\Debug\hotelmgr.csprojAssemblyReference.cache
+C:\Users\m1360\Desktop\hotelmgr\obj\Debug\hotelmgr.FrmLogin.resources
+C:\Users\m1360\Desktop\hotelmgr\obj\Debug\hotelmgr.FrmMain.resources
+C:\Users\m1360\Desktop\hotelmgr\obj\Debug\hotelmgr.Properties.Resources.resources
+C:\Users\m1360\Desktop\hotelmgr\obj\Debug\hotelmgr.csproj.GenerateResource.cache
+C:\Users\m1360\Desktop\hotelmgr\obj\Debug\hotelmgr.exe
+C:\Users\m1360\Desktop\hotelmgr\obj\Debug\hotelmgr.pdb
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[3]hotelmgr\bin\Debug\hotelmgr.exe.config
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[3]hotelmgr\bin\Debug\hotelmgr.exe
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[3]hotelmgr\bin\Debug\hotelmgr.pdb
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[3]hotelmgr\obj\Debug\hotelmgr.csprojAssemblyReference.cache
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[3]hotelmgr\obj\Debug\hotelmgr.FrmLogin.resources
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[3]hotelmgr\obj\Debug\hotelmgr.FrmMain.resources
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[3]hotelmgr\obj\Debug\hotelmgr.Properties.Resources.resources
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[3]hotelmgr\obj\Debug\hotelmgr.csproj.GenerateResource.cache
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[3]hotelmgr\obj\Debug\hotelmgr.exe
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[3]hotelmgr\obj\Debug\hotelmgr.pdb
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[5]hotelmgr\bin\Debug\hotelmgr.exe.config
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[5]hotelmgr\bin\Debug\hotelmgr.exe
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[5]hotelmgr\bin\Debug\hotelmgr.pdb
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[5]hotelmgr\obj\Debug\hotelmgr.csprojAssemblyReference.cache
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[5]hotelmgr\obj\Debug\hotelmgr.FrmLogin.resources
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[5]hotelmgr\obj\Debug\hotelmgr.FrmMain.resources
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[5]hotelmgr\obj\Debug\hotelmgr.Properties.Resources.resources
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[5]hotelmgr\obj\Debug\hotelmgr.csproj.GenerateResource.cache
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[5]hotelmgr\obj\Debug\hotelmgr.exe
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[5]hotelmgr\obj\Debug\hotelmgr.pdb
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[5]hotelmgr\obj\Debug\hotelmgr.FrmReserve.resources
+C:\Users\m1360\Desktop\[5]hotelmgr\bin\Debug\hotelmgr.exe.config
+C:\Users\m1360\Desktop\[5]hotelmgr\bin\Debug\hotelmgr.exe
+C:\Users\m1360\Desktop\[5]hotelmgr\bin\Debug\hotelmgr.pdb
+C:\Users\m1360\Desktop\[5]hotelmgr\obj\Debug\hotelmgr.csprojAssemblyReference.cache
+C:\Users\m1360\Desktop\[5]hotelmgr\obj\Debug\hotelmgr.FrmLogin.resources
+C:\Users\m1360\Desktop\[5]hotelmgr\obj\Debug\hotelmgr.FrmMain.resources
+C:\Users\m1360\Desktop\[5]hotelmgr\obj\Debug\hotelmgr.FrmReserve.resources
+C:\Users\m1360\Desktop\[5]hotelmgr\obj\Debug\hotelmgr.Properties.Resources.resources
+C:\Users\m1360\Desktop\[5]hotelmgr\obj\Debug\hotelmgr.csproj.GenerateResource.cache
+C:\Users\m1360\Desktop\[5]hotelmgr\obj\Debug\hotelmgr.exe
+C:\Users\m1360\Desktop\[5]hotelmgr\obj\Debug\hotelmgr.pdb
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[5.1]hotelmgr\bin\Debug\hotelmgr.exe.config
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[5.1]hotelmgr\bin\Debug\hotelmgr.exe
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[5.1]hotelmgr\bin\Debug\hotelmgr.pdb
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[5.1]hotelmgr\obj\Debug\hotelmgr.csprojAssemblyReference.cache
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[5.1]hotelmgr\obj\Debug\hotelmgr.FrmLogin.resources
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[5.1]hotelmgr\obj\Debug\hotelmgr.FrmMain.resources
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[5.1]hotelmgr\obj\Debug\hotelmgr.FrmReserve.resources
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[5.1]hotelmgr\obj\Debug\hotelmgr.Properties.Resources.resources
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[5.1]hotelmgr\obj\Debug\hotelmgr.csproj.GenerateResource.cache
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[5.1]hotelmgr\obj\Debug\hotelmgr.exe
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[5.1]hotelmgr\obj\Debug\hotelmgr.pdb
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[6]hotelmgr\bin\Debug\hotelmgr.exe.config
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[6]hotelmgr\bin\Debug\hotelmgr.exe
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[6]hotelmgr\bin\Debug\hotelmgr.pdb
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[6]hotelmgr\obj\Debug\hotelmgr.FrmCheckIn.resources
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[6]hotelmgr\obj\Debug\hotelmgr.FrmLogin.resources
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[6]hotelmgr\obj\Debug\hotelmgr.FrmMain.resources
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[6]hotelmgr\obj\Debug\hotelmgr.FrmReserve.resources
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[6]hotelmgr\obj\Debug\hotelmgr.Properties.Resources.resources
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[6]hotelmgr\obj\Debug\hotelmgr.csproj.GenerateResource.cache
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[6]hotelmgr\obj\Debug\hotelmgr.exe
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[6]hotelmgr\obj\Debug\hotelmgr.pdb
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[6]hotelmgr\obj\Debug\hotelmgr.csprojAssemblyReference.cache
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[7]hotelmgr\bin\Debug\hotelmgr.exe.config
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[7]hotelmgr\bin\Debug\hotelmgr.exe
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[7]hotelmgr\bin\Debug\hotelmgr.pdb
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[7]hotelmgr\obj\Debug\hotelmgr.csprojAssemblyReference.cache
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[7]hotelmgr\obj\Debug\hotelmgr.FrmCheckIn.resources
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[7]hotelmgr\obj\Debug\hotelmgr.FrmLogin.resources
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[7]hotelmgr\obj\Debug\hotelmgr.FrmMain.resources
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[7]hotelmgr\obj\Debug\hotelmgr.FrmReserve.resources
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[7]hotelmgr\obj\Debug\hotelmgr.Properties.Resources.resources
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[7]hotelmgr\obj\Debug\hotelmgr.csproj.GenerateResource.cache
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[7]hotelmgr\obj\Debug\hotelmgr.exe
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[7]hotelmgr\obj\Debug\hotelmgr.pdb
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[7]hotelmgr\obj\Debug\hotelmgr.FrmStaff.resources
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[1.9]hotelmgr\bin\Debug\hotelmgr.exe.config
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[1.9]hotelmgr\bin\Debug\hotelmgr.exe
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[1.9]hotelmgr\bin\Debug\hotelmgr.pdb
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[1.9]hotelmgr\obj\Debug\hotelmgr.csprojAssemblyReference.cache
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[1.9]hotelmgr\obj\Debug\hotelmgr.FrmCheckIn.resources
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[1.9]hotelmgr\obj\Debug\hotelmgr.FrmStaff.resources
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[1.9]hotelmgr\obj\Debug\hotelmgr.FrmLogin.resources
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[1.9]hotelmgr\obj\Debug\hotelmgr.FrmMain.resources
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[1.9]hotelmgr\obj\Debug\hotelmgr.FrmReserve.resources
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[1.9]hotelmgr\obj\Debug\hotelmgr.Properties.Resources.resources
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[1.9]hotelmgr\obj\Debug\hotelmgr.csproj.GenerateResource.cache
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[1.9]hotelmgr\obj\Debug\hotelmgr.exe
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[1.9]hotelmgr\obj\Debug\hotelmgr.pdb
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[1.9]hotelmgr\obj\Debug\hotelmgr.FrmStaffRoom.resources
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[2.0]hotelmgr\bin\Debug\hotelmgr.exe.config
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[2.0]hotelmgr\bin\Debug\hotelmgr.exe
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[2.0]hotelmgr\bin\Debug\hotelmgr.pdb
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[2.0]hotelmgr\obj\Debug\hotelmgr.csprojAssemblyReference.cache
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[2.0]hotelmgr\obj\Debug\hotelmgr.FrmCheckIn.resources
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[2.0]hotelmgr\obj\Debug\hotelmgr.FrmStaff.resources
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[2.0]hotelmgr\obj\Debug\hotelmgr.FrmLogin.resources
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[2.0]hotelmgr\obj\Debug\hotelmgr.FrmMain.resources
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[2.0]hotelmgr\obj\Debug\hotelmgr.FrmReserve.resources
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[2.0]hotelmgr\obj\Debug\hotelmgr.FrmStaffRoom.resources
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[2.0]hotelmgr\obj\Debug\hotelmgr.Properties.Resources.resources
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[2.0]hotelmgr\obj\Debug\hotelmgr.csproj.GenerateResource.cache
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[2.0]hotelmgr\obj\Debug\hotelmgr.exe
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[2.0]hotelmgr\obj\Debug\hotelmgr.pdb
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[2.0]hotelmgr\obj\Debug\hotelmgr.FrmMember.resources
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[2.0]hotelmgr\obj\Debug\hotelmgr.FrmRoom.resources
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[2.1]hotelmgr\bin\Debug\hotelmgr.exe.config
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[2.1]hotelmgr\bin\Debug\hotelmgr.exe
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[2.1]hotelmgr\bin\Debug\hotelmgr.pdb
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[2.1]hotelmgr\obj\Debug\hotelmgr.csprojAssemblyReference.cache
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[2.1]hotelmgr\obj\Debug\hotelmgr.FrmCheckIn.resources
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[2.1]hotelmgr\obj\Debug\hotelmgr.FrmRoom.resources
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[2.1]hotelmgr\obj\Debug\hotelmgr.FrmStaff.resources
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[2.1]hotelmgr\obj\Debug\hotelmgr.FrmLogin.resources
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[2.1]hotelmgr\obj\Debug\hotelmgr.FrmMain.resources
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[2.1]hotelmgr\obj\Debug\hotelmgr.FrmReserve.resources
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[2.1]hotelmgr\obj\Debug\hotelmgr.FrmStaffRoom.resources
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[2.1]hotelmgr\obj\Debug\hotelmgr.Properties.Resources.resources
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[2.1]hotelmgr\obj\Debug\hotelmgr.csproj.GenerateResource.cache
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[2.1]hotelmgr\obj\Debug\hotelmgr.exe
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[2.1]hotelmgr\obj\Debug\hotelmgr.pdb
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[2.1]hotelmgr\obj\Debug\hotelmgr.FrmLockScreen.resources
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[2.1]hotelmgr\obj\Debug\hotelmgr.FrmMemberAdd.resources
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[2.1]hotelmgr\obj\Debug\hotelmgr.FrmMember.resources
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[2.2]hotelmgr\bin\Debug\hotelmgr.exe.config
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[2.2]hotelmgr\bin\Debug\hotelmgr.exe
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[2.2]hotelmgr\bin\Debug\hotelmgr.pdb
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[2.2]hotelmgr\obj\Debug\hotelmgr.csprojAssemblyReference.cache
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[2.2]hotelmgr\obj\Debug\hotelmgr.FrmCheckIn.resources
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[2.2]hotelmgr\obj\Debug\hotelmgr.FrmLockScreen.resources
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[2.2]hotelmgr\obj\Debug\hotelmgr.FrmMember.resources
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[2.2]hotelmgr\obj\Debug\hotelmgr.FrmMemberAdd.resources
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[2.2]hotelmgr\obj\Debug\hotelmgr.FrmRoom.resources
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[2.2]hotelmgr\obj\Debug\hotelmgr.FrmStaff.resources
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[2.2]hotelmgr\obj\Debug\hotelmgr.FrmLogin.resources
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[2.2]hotelmgr\obj\Debug\hotelmgr.FrmMain.resources
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[2.2]hotelmgr\obj\Debug\hotelmgr.FrmReserve.resources
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[2.2]hotelmgr\obj\Debug\hotelmgr.FrmStaffRoom.resources
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[2.2]hotelmgr\obj\Debug\hotelmgr.Properties.Resources.resources
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[2.2]hotelmgr\obj\Debug\hotelmgr.csproj.GenerateResource.cache
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[2.2]hotelmgr\obj\Debug\hotelmgr.exe
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[2.2]hotelmgr\obj\Debug\hotelmgr.pdb
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[2.2]hotelmgr\obj\Debug\hotelmgr.FrmBFSell.resources
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[2.2]hotelmgr\obj\Debug\hotelmgr.FrmBF.resources
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[2.3]hotelmgr\bin\Debug\hotelmgr.exe.config
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[2.3]hotelmgr\bin\Debug\hotelmgr.exe
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[2.3]hotelmgr\bin\Debug\hotelmgr.pdb
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[2.3]hotelmgr\obj\Debug\hotelmgr.csprojAssemblyReference.cache
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[2.3]hotelmgr\obj\Debug\hotelmgr.FrmBF.resources
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[2.3]hotelmgr\obj\Debug\hotelmgr.FrmCheckIn.resources
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[2.3]hotelmgr\obj\Debug\hotelmgr.FrmLockScreen.resources
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[2.3]hotelmgr\obj\Debug\hotelmgr.FrmMember.resources
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[2.3]hotelmgr\obj\Debug\hotelmgr.FrmMemberAdd.resources
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[2.3]hotelmgr\obj\Debug\hotelmgr.FrmRoom.resources
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[2.3]hotelmgr\obj\Debug\hotelmgr.FrmBFSell.resources
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[2.3]hotelmgr\obj\Debug\hotelmgr.FrmStaff.resources
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[2.3]hotelmgr\obj\Debug\hotelmgr.FrmLogin.resources
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[2.3]hotelmgr\obj\Debug\hotelmgr.FrmMain.resources
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[2.3]hotelmgr\obj\Debug\hotelmgr.FrmReserve.resources
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[2.3]hotelmgr\obj\Debug\hotelmgr.FrmStaffRoom.resources
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[2.3]hotelmgr\obj\Debug\hotelmgr.Properties.Resources.resources
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[2.3]hotelmgr\obj\Debug\hotelmgr.csproj.GenerateResource.cache
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[2.3]hotelmgr\obj\Debug\hotelmgr.exe
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[2.3]hotelmgr\obj\Debug\hotelmgr.pdb
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[2.3]hotelmgr\obj\Debug\hotelmgr.FrmRoomAdd.resources
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[2.4]hotelmgr\bin\Debug\hotelmgr.exe.config
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[2.4]hotelmgr\bin\Debug\hotelmgr.exe
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[2.4]hotelmgr\bin\Debug\hotelmgr.pdb
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[2.4]hotelmgr\obj\Debug\hotelmgr.csprojAssemblyReference.cache
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[2.4]hotelmgr\obj\Debug\hotelmgr.FrmBF.resources
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[2.4]hotelmgr\obj\Debug\hotelmgr.FrmCheckIn.resources
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[2.4]hotelmgr\obj\Debug\hotelmgr.FrmLockScreen.resources
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[2.4]hotelmgr\obj\Debug\hotelmgr.FrmMember.resources
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[2.4]hotelmgr\obj\Debug\hotelmgr.FrmMemberAdd.resources
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[2.4]hotelmgr\obj\Debug\hotelmgr.FrmRoom.resources
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[2.4]hotelmgr\obj\Debug\hotelmgr.FrmBFSell.resources
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[2.4]hotelmgr\obj\Debug\hotelmgr.FrmRoomAdd.resources
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[2.4]hotelmgr\obj\Debug\hotelmgr.FrmStaff.resources
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[2.4]hotelmgr\obj\Debug\hotelmgr.FrmLogin.resources
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[2.4]hotelmgr\obj\Debug\hotelmgr.FrmMain.resources
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[2.4]hotelmgr\obj\Debug\hotelmgr.FrmReserve.resources
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[2.4]hotelmgr\obj\Debug\hotelmgr.FrmStaffRoom.resources
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[2.4]hotelmgr\obj\Debug\hotelmgr.Properties.Resources.resources
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[2.4]hotelmgr\obj\Debug\hotelmgr.csproj.GenerateResource.cache
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[2.4]hotelmgr\obj\Debug\hotelmgr.exe
+D:\SCNU\My Courses\2019-2020(1) 数据库系统课程项目\Group Files\[2.4]hotelmgr\obj\Debug\hotelmgr.pdb
+C:\Users\m1360\Desktop\[2.4]hotelmgr\obj\Debug\hotelmgr.csprojAssemblyReference.cache
+C:\Users\m1360\Desktop\[2.4]hotelmgr\obj\Debug\hotelmgr.FrmBF.resources
+C:\Users\m1360\Desktop\[2.4]hotelmgr\obj\Debug\hotelmgr.FrmCheckIn.resources
+C:\Users\m1360\Desktop\[2.4]hotelmgr\obj\Debug\hotelmgr.FrmLockScreen.resources
+C:\Users\m1360\Desktop\[2.4]hotelmgr\obj\Debug\hotelmgr.FrmMember.resources
+C:\Users\m1360\Desktop\[2.4]hotelmgr\obj\Debug\hotelmgr.FrmMemberAdd.resources
+C:\Users\m1360\Desktop\[2.4]hotelmgr\obj\Debug\hotelmgr.FrmRoom.resources
+C:\Users\m1360\Desktop\[2.4]hotelmgr\obj\Debug\hotelmgr.FrmBFSell.resources
+C:\Users\m1360\Desktop\[2.4]hotelmgr\obj\Debug\hotelmgr.FrmRoomAdd.resources
+C:\Users\m1360\Desktop\[2.4]hotelmgr\obj\Debug\hotelmgr.FrmStaff.resources
+C:\Users\m1360\Desktop\[2.4]hotelmgr\obj\Debug\hotelmgr.FrmLogin.resources
+C:\Users\m1360\Desktop\[2.4]hotelmgr\obj\Debug\hotelmgr.FrmMain.resources
+C:\Users\m1360\Desktop\[2.4]hotelmgr\obj\Debug\hotelmgr.FrmReserve.resources
+C:\Users\m1360\Desktop\[2.4]hotelmgr\obj\Debug\hotelmgr.FrmStaffRoom.resources
+C:\Users\m1360\Desktop\[2.4]hotelmgr\obj\Debug\hotelmgr.Properties.Resources.resources
+C:\Users\m1360\Desktop\[2.4]hotelmgr\obj\Debug\hotelmgr.csproj.GenerateResource.cache
+C:\Users\m1360\Desktop\[2.4]hotelmgr\obj\Debug\hotelmgr.exe
+C:\Users\m1360\Desktop\[2.4]hotelmgr\obj\Debug\hotelmgr.pdb
+C:\Users\m1360\Desktop\[2.4]hotelmgr\bin\Debug\hotelmgr.exe.config
+C:\Users\m1360\Desktop\[2.4]hotelmgr\bin\Debug\hotelmgr.exe
+C:\Users\m1360\Desktop\[2.4]hotelmgr\bin\Debug\hotelmgr.pdb
+C:\Users\m1360\Desktop\[2.4]hotelmgr\bin\Debug\MySql.Data.dll
+C:\Users\m1360\Desktop\[2.4]hotelmgr\bin\Debug\Google.Protobuf.dll
+C:\Users\m1360\Desktop\[2.4]hotelmgr\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\m1360\Desktop\[2.4]hotelmgr\bin\Debug\Renci.SshNet.dll
+C:\Users\m1360\Desktop\[2.4]hotelmgr\bin\Debug\MySql.Data.xml
+C:\Users\m1360\Desktop\[2.4]hotelmgr\obj\Debug\hotelmgr.csproj.CopyComplete
