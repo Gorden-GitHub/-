@@ -30,6 +30,54 @@ namespace hotelmgr
             return mInstance;
         }
 
+        /// <summary>  
+        /// 对SQLite数据库执行增删改操作，返回受影响的行数。  
+        /// </summary>  
+        /// <param name="sql">要执行的增删改的SQL语句</param>  
+        /// <returns></returns>  
+        public int ExecuteNonQuery(String sql)
+        {
+            try
+            {
+                using (MySqlConnection connection = new MySqlConnection(mConnStr))
+                {
+                    connection.Open();
+                    MySqlTransaction transaction = connection.BeginTransaction();
+
+                    using (MySqlCommand cmd = new MySqlCommand())
+                    {
+                        try
+                        {
+                            PrepareCommand(cmd, connection, transaction, CommandType.Text, sql, null);
+
+                            int rows = cmd.ExecuteNonQuery();
+                            transaction.Commit();
+
+                            cmd.Parameters.Clear();
+                            return rows;
+                        }
+                        catch (MySqlException e1)
+                        {
+                            try
+                            {
+                                transaction.Rollback();
+                            }
+                            catch (Exception e2)
+                            {
+                                throw e2;
+                            }
+
+                            throw e1;
+                        }
+                    }
+                }
+            }
+            catch (Exception e)
+            {
+                throw e;
+            }
+        }
+
         /// <summary>
         /// 查询返回DataTable
         /// </summary>

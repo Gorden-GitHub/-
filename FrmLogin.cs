@@ -26,18 +26,21 @@ namespace hotelmgr
                 MessageBox.Show("请输入密码。", "提示");
                 tbPassword.Focus();
             }
-            MySQLHelper mySQL = MySQLHelper.GetInstance();
-            string strcmd = "select Username,Password from system_user_information";
-            DataTable dataTable = mySQL.ExecuteDataTable(strcmd);
-            DataRow[] dataRows = dataTable.Select("Username='" + tbUsername.Text + "' and Password='" + tbPassword.Text + "'");
-            if (dataRows.Length > 0)
+            else 
             {
-                new FrmMain(this).Show();
-                this.Hide();
-            }
-            else
-            {
-                MessageBox.Show("用户名或密码错误。", "提示");
+                MySQLHelper mySQL = MySQLHelper.GetInstance();
+                string strcmd = "select Username,Password from system_user_information";
+                DataTable dataTable = mySQL.ExecuteDataTable(strcmd);
+                DataRow[] dataRows = dataTable.Select("Username='" + tbUsername.Text + "' and Password='" + tbPassword.Text + "'");
+                if (dataRows.Length > 0)
+                {
+                    new FrmMain(this).Show();
+                    this.Hide();
+                }
+                else
+                {
+                    MessageBox.Show("用户名或密码错误。", "提示");
+                }
             }
         }
 
