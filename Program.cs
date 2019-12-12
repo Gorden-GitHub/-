@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 
-namespace hotelmgr
+namespace hotelmgt
 {
     static class Program
     {
