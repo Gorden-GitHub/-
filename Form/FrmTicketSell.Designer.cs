@@ -43,29 +43,28 @@
             // tbRoomNo
             // 
             this.tbRoomNo.HideSelection = false;
-            this.tbRoomNo.Location = new System.Drawing.Point(135, 30);
-            this.tbRoomNo.Margin = new System.Windows.Forms.Padding(5);
+            this.tbRoomNo.Location = new System.Drawing.Point(108, 24);
+            this.tbRoomNo.Margin = new System.Windows.Forms.Padding(4);
             this.tbRoomNo.Name = "tbRoomNo";
-            this.tbRoomNo.Size = new System.Drawing.Size(150, 25);
+            this.tbRoomNo.Size = new System.Drawing.Size(121, 21);
             this.tbRoomNo.TabIndex = 1;
-            this.tbRoomNo.Text = "0201";
             // 
             // lblRoomNo
             // 
-            this.lblRoomNo.Location = new System.Drawing.Point(45, 30);
-            this.lblRoomNo.Margin = new System.Windows.Forms.Padding(5, 5, 0, 5);
+            this.lblRoomNo.Location = new System.Drawing.Point(36, 24);
+            this.lblRoomNo.Margin = new System.Windows.Forms.Padding(4, 4, 0, 4);
             this.lblRoomNo.Name = "lblRoomNo";
-            this.lblRoomNo.Size = new System.Drawing.Size(85, 25);
+            this.lblRoomNo.Size = new System.Drawing.Size(68, 20);
             this.lblRoomNo.TabIndex = 0;
             this.lblRoomNo.Text = "房间编号：";
             this.lblRoomNo.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblBFType
             // 
-            this.lblBFType.Location = new System.Drawing.Point(45, 70);
-            this.lblBFType.Margin = new System.Windows.Forms.Padding(5, 5, 0, 5);
+            this.lblBFType.Location = new System.Drawing.Point(36, 56);
+            this.lblBFType.Margin = new System.Windows.Forms.Padding(4, 4, 0, 4);
             this.lblBFType.Name = "lblBFType";
-            this.lblBFType.Size = new System.Drawing.Size(85, 25);
+            this.lblBFType.Size = new System.Drawing.Size(68, 20);
             this.lblBFType.TabIndex = 2;
             this.lblBFType.Text = "餐票类型：";
             this.lblBFType.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -73,32 +72,29 @@
             // cbBFType
             // 
             this.cbBFType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbBFType.ItemHeight = 15;
-            this.cbBFType.Items.AddRange(new object[] {
-            "赠送",
-            "标准早餐票"});
-            this.cbBFType.Location = new System.Drawing.Point(135, 70);
-            this.cbBFType.Margin = new System.Windows.Forms.Padding(5, 5, 5, 7);
+            this.cbBFType.ItemHeight = 12;
+            this.cbBFType.Location = new System.Drawing.Point(108, 56);
+            this.cbBFType.Margin = new System.Windows.Forms.Padding(4, 4, 4, 6);
             this.cbBFType.Name = "cbBFType";
-            this.cbBFType.Size = new System.Drawing.Size(150, 23);
+            this.cbBFType.Size = new System.Drawing.Size(121, 20);
             this.cbBFType.TabIndex = 3;
             // 
             // lblBFPrice
             // 
-            this.lblBFPrice.Location = new System.Drawing.Point(45, 150);
-            this.lblBFPrice.Margin = new System.Windows.Forms.Padding(5, 5, 0, 5);
+            this.lblBFPrice.Location = new System.Drawing.Point(36, 120);
+            this.lblBFPrice.Margin = new System.Windows.Forms.Padding(4, 4, 0, 4);
             this.lblBFPrice.Name = "lblBFPrice";
-            this.lblBFPrice.Size = new System.Drawing.Size(85, 25);
+            this.lblBFPrice.Size = new System.Drawing.Size(68, 20);
             this.lblBFPrice.TabIndex = 6;
             this.lblBFPrice.Text = "应收餐费：";
             this.lblBFPrice.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblBFPriceVal
             // 
-            this.lblBFPriceVal.Location = new System.Drawing.Point(132, 150);
-            this.lblBFPriceVal.Margin = new System.Windows.Forms.Padding(5);
+            this.lblBFPriceVal.Location = new System.Drawing.Point(106, 120);
+            this.lblBFPriceVal.Margin = new System.Windows.Forms.Padding(4);
             this.lblBFPriceVal.Name = "lblBFPriceVal";
-            this.lblBFPriceVal.Size = new System.Drawing.Size(153, 25);
+            this.lblBFPriceVal.Size = new System.Drawing.Size(122, 20);
             this.lblBFPriceVal.TabIndex = 7;
             this.lblBFPriceVal.Text = "0";
             this.lblBFPriceVal.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -106,20 +102,20 @@
             // btnCancel
             // 
             this.btnCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnCancel.Location = new System.Drawing.Point(171, 195);
-            this.btnCancel.Margin = new System.Windows.Forms.Padding(5);
+            this.btnCancel.Location = new System.Drawing.Point(137, 156);
+            this.btnCancel.Margin = new System.Windows.Forms.Padding(4);
             this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(105, 35);
+            this.btnCancel.Size = new System.Drawing.Size(84, 28);
             this.btnCancel.TabIndex = 9;
             this.btnCancel.Text = "取消";
             this.btnCancel.UseVisualStyleBackColor = true;
             // 
             // btnOK
             // 
-            this.btnOK.Location = new System.Drawing.Point(56, 195);
-            this.btnOK.Margin = new System.Windows.Forms.Padding(5);
+            this.btnOK.Location = new System.Drawing.Point(45, 156);
+            this.btnOK.Margin = new System.Windows.Forms.Padding(4);
             this.btnOK.Name = "btnOK";
-            this.btnOK.Size = new System.Drawing.Size(105, 35);
+            this.btnOK.Size = new System.Drawing.Size(84, 28);
             this.btnOK.TabIndex = 8;
             this.btnOK.Text = "记账";
             this.btnOK.UseVisualStyleBackColor = true;
@@ -127,10 +123,10 @@
             // 
             // lblBFNum
             // 
-            this.lblBFNum.Location = new System.Drawing.Point(45, 110);
-            this.lblBFNum.Margin = new System.Windows.Forms.Padding(5, 5, 0, 5);
+            this.lblBFNum.Location = new System.Drawing.Point(36, 88);
+            this.lblBFNum.Margin = new System.Windows.Forms.Padding(4, 4, 0, 4);
             this.lblBFNum.Name = "lblBFNum";
-            this.lblBFNum.Size = new System.Drawing.Size(85, 25);
+            this.lblBFNum.Size = new System.Drawing.Size(68, 20);
             this.lblBFNum.TabIndex = 4;
             this.lblBFNum.Text = "餐票数量：";
             this.lblBFNum.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -138,18 +134,18 @@
             // tbBFNum
             // 
             this.tbBFNum.HideSelection = false;
-            this.tbBFNum.Location = new System.Drawing.Point(135, 110);
-            this.tbBFNum.Margin = new System.Windows.Forms.Padding(5);
+            this.tbBFNum.Location = new System.Drawing.Point(108, 88);
+            this.tbBFNum.Margin = new System.Windows.Forms.Padding(4);
             this.tbBFNum.Name = "tbBFNum";
-            this.tbBFNum.Size = new System.Drawing.Size(150, 25);
+            this.tbBFNum.Size = new System.Drawing.Size(121, 21);
             this.tbBFNum.TabIndex = 5;
-            this.tbBFNum.Text = "1";
+            this.tbBFNum.MouseLeave += new System.EventHandler(this.tbBFNum_MouseLeave);
             // 
             // FrmBFSell
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(120F, 120F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
-            this.ClientSize = new System.Drawing.Size(332, 253);
+            this.ClientSize = new System.Drawing.Size(266, 202);
             this.Controls.Add(this.tbBFNum);
             this.Controls.Add(this.lblBFNum);
             this.Controls.Add(this.btnCancel);
@@ -161,6 +157,7 @@
             this.Controls.Add(this.tbRoomNo);
             this.Controls.Add(this.lblRoomNo);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "FrmBFSell";

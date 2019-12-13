@@ -1,4 +1,6 @@
-﻿using System;
+﻿using hotelmgt.BLL;
+using hotelmgt.Model;
+using System;
 using System.Windows.Forms;
 
 namespace hotelmgt
@@ -31,29 +33,63 @@ namespace hotelmgt
         }
         #endregion
 
-        #region 按钮事件
-        // 登录
-        private void btnLogin_Click(object sender, EventArgs e)
+        #region 检验输入完整性
+        /// <summary>
+        /// 检验输入完整性
+        /// </summary>
+        /// <returns></returns>
+        private bool CheckInput()
         {
             if (tbUsername.Text == "")
             {
                 MessageBox.Show("请输入用户名。", "提示", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 tbUsername.Focus();
+                return false;
             }
-            else if (tbPassword.Text == "")
+            if (tbPassword.Text == "")
             {
                 MessageBox.Show("请输入密码。", "提示", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 tbPassword.Focus();
+                return false;
             }
-            else if (tbUsername.Text == "admin" && tbPassword.Text == "admin")
+            return true;
+        }
+        #endregion
+
+        #region 按钮事件
+        // 登录
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+            try
             {
-                new FrmMain().Show();   // 进入主界面
-                this.Hide();    // 隐藏登录界面，以便切换用户
+                if (CheckInput())
+                {
+                    string Username = tbUsername.Text;
+                    string Password = tbPassword.Text;
+                    User u = UserManager.SelectUserInfoByUsername(Username);
+                    if (u != null)
+                    {
+                        u = UserManager.SelectUserInfoByUsernameAndPassword(Username, Password);
+                        if (u != null)
+                        {
+                            new FrmMain().Show();   // 进入主界面
+                            this.Hide();
+                        }
+                        else
+                        {
+                            MessageBox.Show("密码错误。", "提示", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            tbPassword.Focus();
+                        }
+                    }
+                    else
+                    {
+                        MessageBox.Show("用户名不存在。", "提示", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        tbUsername.Focus();
+                    }
+                }
             }
-            else
-            {
-                MessageBox.Show("用户名或密码错误。", "提示", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                tbPassword.Focus();
+            catch
+            { 
             }
         }
         // 退出

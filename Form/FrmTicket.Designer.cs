@@ -28,34 +28,29 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.gbBFInfo = new System.Windows.Forms.GroupBox();
             this.dgvBFInfo = new System.Windows.Forms.DataGridView();
-            this.cBFType = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.cBFPrice = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.cmsBFAdd = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.tsmiBFAdd = new System.Windows.Forms.ToolStripMenuItem();
-            this.cmsBF = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.tsmiBFModifyItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.tsmiBFAppend = new System.Windows.Forms.ToolStripMenuItem();
-            this.tsmiBFRemove = new System.Windows.Forms.ToolStripMenuItem();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.tbTicketType = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.tbTicketPrice = new System.Windows.Forms.TextBox();
+            this.Add = new System.Windows.Forms.Button();
+            this.Delete = new System.Windows.Forms.Button();
             this.gbBFInfo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvBFInfo)).BeginInit();
-            this.cmsBFAdd.SuspendLayout();
-            this.cmsBF.SuspendLayout();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // gbBFInfo
             // 
             this.gbBFInfo.Controls.Add(this.dgvBFInfo);
-            this.gbBFInfo.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.gbBFInfo.Location = new System.Drawing.Point(10, 10);
+            this.gbBFInfo.Location = new System.Drawing.Point(6, 99);
+            this.gbBFInfo.Margin = new System.Windows.Forms.Padding(2);
             this.gbBFInfo.Name = "gbBFInfo";
-            this.gbBFInfo.Size = new System.Drawing.Size(362, 333);
+            this.gbBFInfo.Padding = new System.Windows.Forms.Padding(2);
+            this.gbBFInfo.Size = new System.Drawing.Size(290, 266);
             this.gbBFInfo.TabIndex = 6;
             this.gbBFInfo.TabStop = false;
             this.gbBFInfo.Text = "餐费信息";
@@ -69,118 +64,115 @@
             this.dgvBFInfo.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvBFInfo.BackgroundColor = System.Drawing.SystemColors.ControlLightLight;
             this.dgvBFInfo.ClipboardCopyMode = System.Windows.Forms.DataGridViewClipboardCopyMode.EnableWithoutHeaderText;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvBFInfo.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvBFInfo.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
             this.dgvBFInfo.ColumnHeadersHeight = 29;
             this.dgvBFInfo.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
-            this.dgvBFInfo.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.cBFType,
-            this.cBFPrice});
-            this.dgvBFInfo.ContextMenuStrip = this.cmsBFAdd;
             this.dgvBFInfo.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dgvBFInfo.Location = new System.Drawing.Point(3, 21);
+            this.dgvBFInfo.Location = new System.Drawing.Point(2, 16);
+            this.dgvBFInfo.Margin = new System.Windows.Forms.Padding(2);
             this.dgvBFInfo.MultiSelect = false;
             this.dgvBFInfo.Name = "dgvBFInfo";
             this.dgvBFInfo.RowHeadersWidth = 29;
             this.dgvBFInfo.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
             this.dgvBFInfo.RowTemplate.Height = 27;
-            this.dgvBFInfo.Size = new System.Drawing.Size(356, 309);
+            this.dgvBFInfo.Size = new System.Drawing.Size(286, 248);
             this.dgvBFInfo.TabIndex = 1;
-            this.dgvBFInfo.RowsAdded += new System.Windows.Forms.DataGridViewRowsAddedEventHandler(this.dgvBFInfo_RowsAdded);
             // 
-            // cBFType
+            // panel1
             // 
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.cBFType.DefaultCellStyle = dataGridViewCellStyle2;
-            this.cBFType.HeaderText = "餐票类型";
-            this.cBFType.MinimumWidth = 6;
-            this.cBFType.Name = "cBFType";
-            this.cBFType.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.panel1.Controls.Add(this.Delete);
+            this.panel1.Controls.Add(this.Add);
+            this.panel1.Controls.Add(this.tbTicketPrice);
+            this.panel1.Controls.Add(this.label2);
+            this.panel1.Controls.Add(this.tbTicketType);
+            this.panel1.Controls.Add(this.label1);
+            this.panel1.Location = new System.Drawing.Point(11, 11);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(283, 100);
+            this.panel1.TabIndex = 7;
             // 
-            // cBFPrice
+            // label1
             // 
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.cBFPrice.DefaultCellStyle = dataGridViewCellStyle3;
-            this.cBFPrice.HeaderText = "餐票价格";
-            this.cBFPrice.MinimumWidth = 6;
-            this.cBFPrice.Name = "cBFPrice";
-            this.cBFPrice.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(3, 6);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(65, 12);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "餐票类型：";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // cmsBFAdd
+            // tbTicketType
             // 
-            this.cmsBFAdd.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.cmsBFAdd.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.tsmiBFAdd});
-            this.cmsBFAdd.Name = "cmsBFAdd";
-            this.cmsBFAdd.Size = new System.Drawing.Size(159, 28);
+            this.tbTicketType.Location = new System.Drawing.Point(59, 3);
+            this.tbTicketType.Name = "tbTicketType";
+            this.tbTicketType.Size = new System.Drawing.Size(100, 21);
+            this.tbTicketType.TabIndex = 1;
             // 
-            // tsmiBFAdd
+            // label2
             // 
-            this.tsmiBFAdd.Name = "tsmiBFAdd";
-            this.tsmiBFAdd.Size = new System.Drawing.Size(158, 24);
-            this.tsmiBFAdd.Text = "添加新餐票";
-            this.tsmiBFAdd.Click += new System.EventHandler(this.tsmiBFAdd_Click);
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(3, 36);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(65, 12);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "餐票价格：";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // cmsBF
+            // tbTicketPrice
             // 
-            this.cmsBF.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.cmsBF.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.tsmiBFModifyItem,
-            this.toolStripSeparator1,
-            this.tsmiBFAppend,
-            this.tsmiBFRemove});
-            this.cmsBF.Name = "cmsBF";
-            this.cmsBF.Size = new System.Drawing.Size(159, 82);
+            this.tbTicketPrice.Location = new System.Drawing.Point(59, 33);
+            this.tbTicketPrice.Name = "tbTicketPrice";
+            this.tbTicketPrice.Size = new System.Drawing.Size(100, 21);
+            this.tbTicketPrice.TabIndex = 3;
             // 
-            // tsmiBFModifyItem
+            // Add
             // 
-            this.tsmiBFModifyItem.Name = "tsmiBFModifyItem";
-            this.tsmiBFModifyItem.Size = new System.Drawing.Size(158, 24);
-            this.tsmiBFModifyItem.Text = "修改此项";
+            this.Add.Location = new System.Drawing.Point(35, 60);
+            this.Add.Name = "Add";
+            this.Add.Size = new System.Drawing.Size(75, 23);
+            this.Add.TabIndex = 4;
+            this.Add.Text = "添加餐费";
+            this.Add.UseVisualStyleBackColor = true;
+            this.Add.Click += new System.EventHandler(this.Add_Click);
             // 
-            // toolStripSeparator1
+            // Delete
             // 
-            this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(155, 6);
-            // 
-            // tsmiBFAppend
-            // 
-            this.tsmiBFAppend.Name = "tsmiBFAppend";
-            this.tsmiBFAppend.Size = new System.Drawing.Size(158, 24);
-            this.tsmiBFAppend.Text = "添加新餐票";
-            this.tsmiBFAppend.Click += new System.EventHandler(this.tsmiBFAppend_Click);
-            // 
-            // tsmiBFRemove
-            // 
-            this.tsmiBFRemove.Name = "tsmiBFRemove";
-            this.tsmiBFRemove.Size = new System.Drawing.Size(158, 24);
-            this.tsmiBFRemove.Text = "删除此餐票";
+            this.Delete.Location = new System.Drawing.Point(169, 60);
+            this.Delete.Name = "Delete";
+            this.Delete.Size = new System.Drawing.Size(75, 23);
+            this.Delete.TabIndex = 5;
+            this.Delete.Text = "删除餐费";
+            this.Delete.UseVisualStyleBackColor = true;
+            this.Delete.Click += new System.EventHandler(this.Delete_Click);
             // 
             // FrmBF
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(120F, 120F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
-            this.ClientSize = new System.Drawing.Size(382, 353);
+            this.ClientSize = new System.Drawing.Size(306, 371);
             this.Controls.Add(this.gbBFInfo);
+            this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "FrmBF";
-            this.Padding = new System.Windows.Forms.Padding(10);
+            this.Padding = new System.Windows.Forms.Padding(8);
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "管理餐费信息";
             this.Load += new System.EventHandler(this.FrmBF_Load);
             this.gbBFInfo.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvBFInfo)).EndInit();
-            this.cmsBFAdd.ResumeLayout(false);
-            this.cmsBF.ResumeLayout(false);
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -189,14 +181,12 @@
 
         private System.Windows.Forms.GroupBox gbBFInfo;
         private System.Windows.Forms.DataGridView dgvBFInfo;
-        private System.Windows.Forms.ContextMenuStrip cmsBFAdd;
-        private System.Windows.Forms.ToolStripMenuItem tsmiBFAdd;
-        private System.Windows.Forms.ContextMenuStrip cmsBF;
-        private System.Windows.Forms.ToolStripMenuItem tsmiBFModifyItem;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
-        private System.Windows.Forms.ToolStripMenuItem tsmiBFAppend;
-        private System.Windows.Forms.ToolStripMenuItem tsmiBFRemove;
-        private System.Windows.Forms.DataGridViewTextBoxColumn cBFType;
-        private System.Windows.Forms.DataGridViewTextBoxColumn cBFPrice;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox tbTicketType;
+        private System.Windows.Forms.TextBox tbTicketPrice;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button Add;
+        private System.Windows.Forms.Button Delete;
     }
 }

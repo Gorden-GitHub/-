@@ -28,22 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.dgvMemberInfo = new System.Windows.Forms.DataGridView();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.btnSearchStaff = new System.Windows.Forms.Button();
-            this.tbStaffPhone = new System.Windows.Forms.TextBox();
-            this.lblStaffPhone = new System.Windows.Forms.Label();
-            this.tbStaffName = new System.Windows.Forms.TextBox();
-            this.lblStaffName = new System.Windows.Forms.Label();
-            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.cNo = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.cName = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.cPhone = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.cTime = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.Delete = new System.Windows.Forms.Button();
+            this.Add = new System.Windows.Forms.Button();
+            this.btnSearchMember = new System.Windows.Forms.Button();
+            this.tbMemberPhone = new System.Windows.Forms.TextBox();
+            this.lblMemberPhone = new System.Windows.Forms.Label();
+            this.tbMemberName = new System.Windows.Forms.TextBox();
+            this.lblMemberName = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgvMemberInfo)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -67,151 +61,117 @@
             this.dgvMemberInfo.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dgvMemberInfo.ColumnHeadersHeight = 29;
             this.dgvMemberInfo.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
-            this.dgvMemberInfo.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.cNo,
-            this.cName,
-            this.cPhone,
-            this.cTime});
             this.dgvMemberInfo.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dgvMemberInfo.Location = new System.Drawing.Point(10, 120);
+            this.dgvMemberInfo.Location = new System.Drawing.Point(8, 96);
+            this.dgvMemberInfo.Margin = new System.Windows.Forms.Padding(2);
             this.dgvMemberInfo.MultiSelect = false;
             this.dgvMemberInfo.Name = "dgvMemberInfo";
+            this.dgvMemberInfo.ReadOnly = true;
             this.dgvMemberInfo.RowHeadersWidth = 29;
             this.dgvMemberInfo.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
             this.dgvMemberInfo.RowTemplate.Height = 23;
-            this.dgvMemberInfo.Size = new System.Drawing.Size(666, 435);
+            this.dgvMemberInfo.Size = new System.Drawing.Size(533, 348);
             this.dgvMemberInfo.TabIndex = 0;
+            this.dgvMemberInfo.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.dgvMemberInfo_MouseDoubleClick);
             // 
             // panel1
             // 
             this.panel1.AutoSize = true;
-            this.panel1.Controls.Add(this.button2);
-            this.panel1.Controls.Add(this.button1);
-            this.panel1.Controls.Add(this.btnSearchStaff);
-            this.panel1.Controls.Add(this.tbStaffPhone);
-            this.panel1.Controls.Add(this.lblStaffPhone);
-            this.panel1.Controls.Add(this.tbStaffName);
-            this.panel1.Controls.Add(this.lblStaffName);
+            this.panel1.Controls.Add(this.Delete);
+            this.panel1.Controls.Add(this.Add);
+            this.panel1.Controls.Add(this.btnSearchMember);
+            this.panel1.Controls.Add(this.tbMemberPhone);
+            this.panel1.Controls.Add(this.lblMemberPhone);
+            this.panel1.Controls.Add(this.tbMemberName);
+            this.panel1.Controls.Add(this.lblMemberName);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(10, 10);
+            this.panel1.Location = new System.Drawing.Point(8, 8);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
-            this.panel1.Padding = new System.Windows.Forms.Padding(10);
-            this.panel1.Size = new System.Drawing.Size(666, 110);
+            this.panel1.Padding = new System.Windows.Forms.Padding(8);
+            this.panel1.Size = new System.Drawing.Size(533, 88);
             this.panel1.TabIndex = 22;
             // 
-            // btnSearchStaff
+            // Delete
             // 
-            this.btnSearchStaff.Location = new System.Drawing.Point(145, 55);
-            this.btnSearchStaff.Margin = new System.Windows.Forms.Padding(10);
-            this.btnSearchStaff.Name = "btnSearchStaff";
-            this.btnSearchStaff.Size = new System.Drawing.Size(105, 35);
-            this.btnSearchStaff.TabIndex = 26;
-            this.btnSearchStaff.Text = "查找会员";
-            this.btnSearchStaff.UseVisualStyleBackColor = true;
+            this.Delete.Location = new System.Drawing.Point(216, 44);
+            this.Delete.Margin = new System.Windows.Forms.Padding(8);
+            this.Delete.Name = "Delete";
+            this.Delete.Size = new System.Drawing.Size(84, 28);
+            this.Delete.TabIndex = 28;
+            this.Delete.Text = "删除会员";
+            this.Delete.UseVisualStyleBackColor = true;
+            this.Delete.Click += new System.EventHandler(this.Delete_Click);
             // 
-            // tbStaffPhone
+            // Add
             // 
-            this.tbStaffPhone.Location = new System.Drawing.Point(350, 15);
-            this.tbStaffPhone.Margin = new System.Windows.Forms.Padding(0, 5, 10, 5);
-            this.tbStaffPhone.Name = "tbStaffPhone";
-            this.tbStaffPhone.Size = new System.Drawing.Size(150, 25);
-            this.tbStaffPhone.TabIndex = 25;
+            this.Add.Location = new System.Drawing.Point(16, 44);
+            this.Add.Margin = new System.Windows.Forms.Padding(8);
+            this.Add.Name = "Add";
+            this.Add.Size = new System.Drawing.Size(84, 28);
+            this.Add.TabIndex = 27;
+            this.Add.Text = "添加会员";
+            this.Add.UseVisualStyleBackColor = true;
+            this.Add.Click += new System.EventHandler(this.Add_Click);
             // 
-            // lblStaffPhone
+            // btnSearchMember
             // 
-            this.lblStaffPhone.Location = new System.Drawing.Point(265, 15);
-            this.lblStaffPhone.Margin = new System.Windows.Forms.Padding(5, 5, 0, 5);
-            this.lblStaffPhone.Name = "lblStaffPhone";
-            this.lblStaffPhone.Size = new System.Drawing.Size(85, 25);
-            this.lblStaffPhone.TabIndex = 24;
-            this.lblStaffPhone.Text = "手机号码：";
-            this.lblStaffPhone.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSearchMember.Location = new System.Drawing.Point(116, 44);
+            this.btnSearchMember.Margin = new System.Windows.Forms.Padding(8);
+            this.btnSearchMember.Name = "btnSearchMember";
+            this.btnSearchMember.Size = new System.Drawing.Size(84, 28);
+            this.btnSearchMember.TabIndex = 26;
+            this.btnSearchMember.Text = "查找会员";
+            this.btnSearchMember.UseVisualStyleBackColor = true;
+            this.btnSearchMember.Click += new System.EventHandler(this.btnSearchMember_Click);
             // 
-            // tbStaffName
+            // tbMemberPhone
             // 
-            this.tbStaffName.Location = new System.Drawing.Point(100, 15);
-            this.tbStaffName.Margin = new System.Windows.Forms.Padding(0, 5, 10, 5);
-            this.tbStaffName.Name = "tbStaffName";
-            this.tbStaffName.Size = new System.Drawing.Size(150, 25);
-            this.tbStaffName.TabIndex = 23;
+            this.tbMemberPhone.Location = new System.Drawing.Point(280, 12);
+            this.tbMemberPhone.Margin = new System.Windows.Forms.Padding(0, 4, 8, 4);
+            this.tbMemberPhone.Name = "tbMemberPhone";
+            this.tbMemberPhone.Size = new System.Drawing.Size(121, 21);
+            this.tbMemberPhone.TabIndex = 25;
             // 
-            // lblStaffName
+            // lblMemberPhone
             // 
-            this.lblStaffName.Location = new System.Drawing.Point(15, 15);
-            this.lblStaffName.Margin = new System.Windows.Forms.Padding(5, 5, 0, 5);
-            this.lblStaffName.Name = "lblStaffName";
-            this.lblStaffName.Size = new System.Drawing.Size(85, 25);
-            this.lblStaffName.TabIndex = 22;
-            this.lblStaffName.Text = "员工姓名：";
-            this.lblStaffName.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblMemberPhone.Location = new System.Drawing.Point(212, 12);
+            this.lblMemberPhone.Margin = new System.Windows.Forms.Padding(4, 4, 0, 4);
+            this.lblMemberPhone.Name = "lblMemberPhone";
+            this.lblMemberPhone.Size = new System.Drawing.Size(68, 20);
+            this.lblMemberPhone.TabIndex = 24;
+            this.lblMemberPhone.Text = "手机号码：";
+            this.lblMemberPhone.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // contextMenuStrip1
+            // tbMemberName
             // 
-            this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
+            this.tbMemberName.Location = new System.Drawing.Point(80, 12);
+            this.tbMemberName.Margin = new System.Windows.Forms.Padding(0, 4, 8, 4);
+            this.tbMemberName.Name = "tbMemberName";
+            this.tbMemberName.Size = new System.Drawing.Size(121, 21);
+            this.tbMemberName.TabIndex = 23;
             // 
-            // cNo
+            // lblMemberName
             // 
-            this.cNo.FillWeight = 40F;
-            this.cNo.HeaderText = "序号";
-            this.cNo.MinimumWidth = 6;
-            this.cNo.Name = "cNo";
-            this.cNo.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            // 
-            // cName
-            // 
-            this.cName.HeaderText = "会员姓名";
-            this.cName.MinimumWidth = 6;
-            this.cName.Name = "cName";
-            this.cName.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            this.cName.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            // 
-            // cPhone
-            // 
-            this.cPhone.HeaderText = "手机号码";
-            this.cPhone.MinimumWidth = 6;
-            this.cPhone.Name = "cPhone";
-            this.cPhone.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            this.cPhone.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            // 
-            // cTime
-            // 
-            this.cTime.HeaderText = "登记时间";
-            this.cTime.MinimumWidth = 6;
-            this.cTime.Name = "cTime";
-            this.cTime.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(20, 55);
-            this.button1.Margin = new System.Windows.Forms.Padding(10);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(105, 35);
-            this.button1.TabIndex = 27;
-            this.button1.Text = "添加会员";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(270, 55);
-            this.button2.Margin = new System.Windows.Forms.Padding(10);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(105, 35);
-            this.button2.TabIndex = 28;
-            this.button2.Text = "删除会员";
-            this.button2.UseVisualStyleBackColor = true;
+            this.lblMemberName.Location = new System.Drawing.Point(12, 12);
+            this.lblMemberName.Margin = new System.Windows.Forms.Padding(4, 4, 0, 4);
+            this.lblMemberName.Name = "lblMemberName";
+            this.lblMemberName.Size = new System.Drawing.Size(68, 20);
+            this.lblMemberName.TabIndex = 22;
+            this.lblMemberName.Text = "会员姓名：";
+            this.lblMemberName.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // FrmMember
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(120F, 120F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
-            this.ClientSize = new System.Drawing.Size(686, 565);
+            this.ClientSize = new System.Drawing.Size(549, 452);
             this.Controls.Add(this.dgvMemberInfo);
             this.Controls.Add(this.panel1);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.MinimizeBox = false;
             this.Name = "FrmMember";
-            this.Padding = new System.Windows.Forms.Padding(10);
+            this.Padding = new System.Windows.Forms.Padding(8);
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "管理会员信息";
@@ -228,17 +188,12 @@
 
         private System.Windows.Forms.DataGridView dgvMemberInfo;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.TextBox tbStaffPhone;
-        private System.Windows.Forms.Label lblStaffPhone;
-        private System.Windows.Forms.TextBox tbStaffName;
-        private System.Windows.Forms.Label lblStaffName;
-        private System.Windows.Forms.Button btnSearchStaff;
-        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn cNo;
-        private System.Windows.Forms.DataGridViewTextBoxColumn cName;
-        private System.Windows.Forms.DataGridViewTextBoxColumn cPhone;
-        private System.Windows.Forms.DataGridViewTextBoxColumn cTime;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox tbMemberPhone;
+        private System.Windows.Forms.Label lblMemberPhone;
+        private System.Windows.Forms.TextBox tbMemberName;
+        private System.Windows.Forms.Label lblMemberName;
+        private System.Windows.Forms.Button btnSearchMember;
+        private System.Windows.Forms.Button Delete;
+        private System.Windows.Forms.Button Add;
     }
 }
