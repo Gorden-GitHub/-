@@ -120,6 +120,7 @@ namespace hotelmgt
         private void Delete_Click(object sender, EventArgs e)
         {
             int index = -1;
+
             index = dgvMemberInfo.CurrentRow.Index;
             string name = dgvMemberInfo.Rows[index].Cells[0].Value.ToString();
             bool flag = MemberManager.DeleteMemberByName(name);

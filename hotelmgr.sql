@@ -1,7 +1,7 @@
 /*
 Navicat MySQL Data Transfer
 
-Source Server         : localhost_3306
+Source Server         : MySQL
 Source Server Version : 80018
 Source Host           : localhost:3306
 Source Database       : hotelmgr
@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 80018
 File Encoding         : 65001
 
-Date: 2019-12-13 21:02:59
+Date: 2019-12-15 11:14:00
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -193,6 +193,7 @@ CREATE TABLE `ticket_sell_information` (
   `Room_Number` char(4) NOT NULL,
   `Ticket_Type` char(2) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
   `Ticket_Price` char(6) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `Ticket_Number` varchar(6) NOT NULL,
   `Total` varchar(6) NOT NULL,
   PRIMARY KEY (`Sell_Time`),
   KEY `Room_Number` (`Room_Number`),
