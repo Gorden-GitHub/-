@@ -1,4 +1,5 @@
-﻿using hotelmgt.DAL;
+﻿using hotelmgt.BLL;
+using hotelmgt.DAL;
 using MySql.Data.MySqlClient;
 using System;
 using System.Collections.Generic;
@@ -46,15 +47,14 @@ namespace hotelmgt
         {
             if (CheckInput())
             {
-                string sql = "INSERT INTO member_information";
-                sql += " values('" + tbCustoPhone.Text + "','" + tbCustoName.Text + "','" + DateTime.Now.ToString("yyyy-MM-dd") + "') ";
-                MySqlConnection con = DBHelper.GetConnection();
-                con.Open();
-                int i = DBHelper.ExecuteNonQuery(sql);
-                tbCustoName.Text = "";
-                tbCustoPhone.Text = "";
-                MessageBox.Show("登记成功。", "提示");
-                Close();
+                bool flag = MemberManager.AddMember(tbCustoName.Text, tbCustoPhone.Text);
+                if (flag == true)
+                {
+                    tbCustoName.Text = "";
+                    tbCustoPhone.Text = "";
+                    MessageBox.Show("登记成功。", "提示");
+                    Close();
+                }
             }
         }
 

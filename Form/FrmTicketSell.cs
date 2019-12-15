@@ -15,6 +15,7 @@ namespace hotelmgt
     public partial class FrmBFSell : Form
     {
         List<TicketInfo> tickets = TicketInfoManager.SelectTicketAll();
+        string price;
         public FrmBFSell()
         {
             InitializeComponent();
@@ -46,7 +47,15 @@ namespace hotelmgt
                 "\n应收餐费：" + lblBFPriceVal.Text +
                 "\n\n请确认以上信息无误，完成交易后点击记账。", "提示", MessageBoxButtons.OKCancel) == DialogResult.OK)
             {
-                MessageBox.Show("已登记早餐票交易记录。", "提示");
+                bool f = TicketSellManager.AddTicketSell(DateTime.Now.ToString("yyyy-MM-dd") + " " + DateTime.Now.ToString("hh:mm:ss"),
+                    tbRoomNo.Text, cbBFType.SelectedItem.ToString(), price, tbBFNum.Text, lblBFPriceVal.Text);
+                if (f == true)
+                {
+                    MessageBox.Show("已登记早餐票交易记录。", "提示");
+                    tbRoomNo.Text = "";
+                    tbBFNum.Text = "";
+                    lblBFPriceVal.Text = "0";
+                }
             }
         }
 
@@ -57,12 +66,11 @@ namespace hotelmgt
                 return;
             }
             string type = cbBFType.Text;
-            string price = "";
             foreach (TicketInfo t in tickets)
             {
-                if (t.Ticket_Type == type) ;
+                if (t.Ticket_Type == type)
                 {
-                    price += t.Ticket_Price;
+                    price = t.Ticket_Price;
                     break;
                 }
             }

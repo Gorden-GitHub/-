@@ -62,10 +62,13 @@ namespace hotelmgt
             if (CheckInput())
             {
                 bool flag = MemberManager.AddMember(tbMemberName.Text, tbMemberPhone.Text);
-                tbMemberName.Text = "";
-                tbMemberPhone.Text = "";
-                MessageBox.Show("添加成功");
-                dgvMemberInfo.DataSource = MemberManager.SelectMemberAll();
+                if (flag == true)
+                {
+                    tbMemberName.Text = "";
+                    tbMemberPhone.Text = "";
+                    MessageBox.Show("添加成功");
+                    dgvMemberInfo.DataSource = MemberManager.SelectMemberAll();
+                }
             }
         }
 
